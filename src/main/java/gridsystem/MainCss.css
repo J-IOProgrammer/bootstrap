@@ -1,0 +1,6 @@
+.container {
+    --my : 5 ;
+    --p : 5;
+    --bg : primary;
+    --text : white;
+}
