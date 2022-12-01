@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>فرم ثبت نام</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.rtl.css">
+</head>
+<body dir="rtl" style="background-color: dodgerblue">
+<div class="container bg-light border p-5 my-5 text-black d-flex flex-column
+align-items-center justify-content-center rounded-3 shadow w-50">
+<h2 class="mb-4"><strong>فرم ثبت نام کاربر جدید</strong></h2>
+<h5 class="mb-4">لطفا فیلد ها را با دقت پر کنید</h5>
+<form class="d-flex flex-column align-items-center justify-content-center rounded-3 gap-3 w-75">
+    <label for="fname"> نام :</label>
+    <input class="form-control" type="text" id="fname" name="fname" value="first name">
+    <label for="lname">نام خانوادگی :</label>
+    <input class="form-control" type="text" id="lname" name="lname" value="last name">
+    <label for="phone">تلفن همراه :</label>
+    <input class="form-control" type="text" id="phone" name="phone" value="09122222222">
+    <label for="gender">جنسیت :</label>
+    <select class="dropdown , form-control" id="gender" name="gender">
+        <option value="female">زن</option>
+        <option value="male">مرد</option>
+    </select>
+    <label for="address">آدرس :</label>
+    <textarea class="form-control" id="address" placeholder="آدرس خود را وارد کنید ..."></textarea>
+    <label for="file">فایل :</label>
+    <input class="form-control" id="file" type="file">
+    <label for="email">ایمیل :</label>
+    <input class="form-control" id="email" type="email" value="yourMail@gmail.com">
+    <label for="birthday">تاریخ تولد :</label>
+    <input class="form-control" id="birthday" type="date">
+<input class="btn btn-primary form-control text-light" type="submit" value="ارسال">
+</form>
+</div>
+</body>
+</html>
